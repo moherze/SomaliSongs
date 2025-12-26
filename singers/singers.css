@@ -38,11 +38,12 @@ body{
     font-size: 1.7em;
     font-weight: 800;
     line-height: 60px;
-    color: rgb(37, 37, 243);
+    
     
 }
 .title-logo a {
   text-decoration: none !important;
+  color: blue;
 }
 
  em{

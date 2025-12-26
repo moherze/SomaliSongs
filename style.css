@@ -37,11 +37,12 @@ body{
     font-size: 1.7em;
     font-weight: 800;
     line-height: 60px;
-    color: rgb(37, 37, 243);
+    
     
 }
 .title-logo a {
   text-decoration: none !important;
+  color: rgb(22, 11, 245);
 }
 
  em{
@@ -162,15 +163,16 @@ body{
 
 .intro-section {
     width: 100%;
-    min-height: 70vh;
-    background: linear-gradient(to right, #2f1be3, #f52525);
+    min-height: 90vh;
+    /* background: linear-gradient(to right, #000000, #f52525); */
+    /* background-image: url("https://www.shutterstock.com/image-photo/indian-music-instrument-abstract-on-260nw-2600517547.jpg"); */
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 3rem 1rem;
-    color: white;
     text-align: center;
 }
+
 
 .intro-section .container {
     max-width: 900px;
@@ -180,23 +182,36 @@ body{
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 1rem;
+    color: red;
+}
+
+body.dark-mode .intro-section .btn {
+  color: white;
 }
 
 .intro-section p {
     font-size: 1.125rem;
     line-height: 1.8;
     margin-bottom: 2rem;
+    color: rgb(1, 1, 27);
+}
+body.dark-mode .intro-section p {
+  color: white;
 }
 
 .intro-section .btn {
-    background-color: white;
-    color: #ed563b;
+    background-color: rgb(12, 12, 84);
+    color: #e93313;
     font-weight: 600;
     padding: 0.75rem 2rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+body.dark-mode .intro-section .btn {
+  background-color: black;
+  color: white;
 }
 
 .intro-section .btn:hover {
@@ -296,19 +311,6 @@ body{
     object-fit: cover;    
     border-radius: 10px;
   }
- 
-
-
-
-
-
-@media(max-width: 1024px) {
-
-    /* .singers-grid {
-        grid-template-columns: repeat(2, 1fr);
-    } */
-}
-
 
 
 
@@ -406,6 +408,9 @@ body{
     .intro-section h1 {
         font-size: 1.8rem;
     }
+
+
+    
 
 }
 
