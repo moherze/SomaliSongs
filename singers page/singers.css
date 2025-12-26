@@ -152,20 +152,6 @@ body.dark-mode {
 }
 
 
-body.dark-mode .singer-card {
-    background-color: #1e1e1e;
-    color: white;
-    box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.05);
-}
-
-body.dark-mode .singer-card p {
-    color: #bbbbbb;
-}
-
-body.dark-mode .singers-section {
-    background-color: #121212;
-}
-
 
 #mode-toggle {
     z-index: 1000;
@@ -240,7 +226,7 @@ body.dark-mode .singers-section {
     font-size: 1.25rem;
     font-weight: 700;
     margin: 1rem;
-    color: #ed563b;
+    color: blue;
 }
 
 .singer-card p {
@@ -260,6 +246,23 @@ body.dark-mode .singers-section {
     box-shadow: 0px 12px 25px rgba(0,0,0,0.15);
 }
 
+
+body.dark-mode .singer-card {
+    background-color: #1e1e1e;
+    color: white;
+    box-shadow: 0px 6px 20px rgba(255, 255, 255, 0.05);
+}
+body.dark-mode .singer-card h3{
+ color: white;
+}
+
+body.dark-mode .singer-card p {
+    color: #bbbbbb;
+}
+
+body.dark-mode .singers-section {
+    background-color: #121212;
+}
 
 
 
@@ -346,16 +349,16 @@ body.dark-mode .singers-section {
     }
 
    .singers-section {
-        padding-top: 20px; /* In yar ka fogee header-ka */
-        background-color: transparent; /* Ka dhig mid raacaya body-ga */
+        padding-top: 20px; 
+        background-color: transparent; 
     }
 
     .singer-card img {
-        width: 250px;       /* Isu dheeli tir ballaca */
-        height: 250px;      /* Dhererka la mid dhig */
-        margin: 20px auto;  /* Bartamaha keen */
-        border-radius: 50%; /* Goobo sax ah */
-        object-fit: cover;  /* Wejiga ha goynin */
+        width: 250px;      
+        height: 250px;     
+        margin: 20px auto;  
+        border-radius: 50%; 
+        object-fit: cover;  
         display: block;
     }
 
