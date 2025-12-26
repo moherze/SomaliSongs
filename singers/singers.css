@@ -1,4 +1,26 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ img{
+  max-width: 100%;
+  max-height: 100%;            
+  object-fit: contain;   
+ }
+
+body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: min(90%, 1120px);
+    margin-inline: auto;
+    padding: 20px 20px;
+}
+
 .singers-section {
     width: 100%;
     padding: 4rem 1rem;
@@ -10,13 +32,16 @@
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 3rem;
-    color: #232d39;
+    color: #fc1414;
 }
 
 .singers-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, 1fr); 
     gap: 2rem;
+    overflow-x:hidden
+
+    
 }
 
 .singer-card {
@@ -34,7 +59,9 @@
     width: 100%;
     height: 280px;
     object-fit: cover;
+    border-radius: 70%;
 }
+
 
 .singer-card h3 {
     font-size: 1.25rem;
@@ -58,4 +85,14 @@
 .singer-card:hover {
     transform: translateY(-5px);
     box-shadow: 0px 12px 25px rgba(0,0,0,0.15);
+}
+
+
+
+
+@media (max-width: 768px) {
+    .singers-grid {
+        grid-template-columns: 1fr;
+    }
+
 }

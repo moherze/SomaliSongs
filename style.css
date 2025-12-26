@@ -377,10 +377,37 @@ body{
     background-color: #f5f5c7;
   }
 
-}
 
 
   /* section  */
+  .singers {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+ 
+    .singer-blog img {
+        height: auto;          
+        max-height: 400px;    
+        object-fit: contain;   
+    }
+
+   .container {
+        width: 100%;
+        padding-inline: 15px;
+        overflow-x: hidden;
+    }
+
+    .program {
+        margin-inline: 5%;
+        margin-top: 3rem;
+    }
+
+  
+    .intro-section h1 {
+        font-size: 1.8rem;
+    }
+
+}
 
   
 
