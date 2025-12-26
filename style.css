@@ -37,8 +37,13 @@ body{
     font-size: 1.7em;
     font-weight: 800;
     line-height: 60px;
-    color: blue;
+    color: rgb(37, 37, 243);
+    
 }
+.title-logo a {
+  text-decoration: none !important;
+}
+
  em{
     color: red;
 }
@@ -235,7 +240,7 @@ body{
 
    .singers {
      display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-bottom: 2rem;
    }
@@ -297,13 +302,18 @@ body{
 
 
 
+@media(max-width: 1024px) {
+
+    /* .singers-grid {
+        grid-template-columns: repeat(2, 1fr);
+    } */
+}
 
 
 
 
 
-
-@media(max-width: 780px){
+@media(max-width: 768px){
     .nav-bar{
         flex-direction: column;
         align-items: flex-start;
@@ -369,6 +379,10 @@ body{
 
 }
 
+
+  /* section  */
+
+  
 
 
 
