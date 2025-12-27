@@ -6,6 +6,7 @@
     <title>iskilaaji</title>
     <link rel="stylesheet" href="iskilaaji.css">
     <script src="iskilaaji.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
@@ -30,6 +31,61 @@
               
         </div>
 </nav>
+
+<<div class="artist-section">
+
+  <div class="artist">
+    <img src="https://cdn-images.dzcdn.net/images/cover/99583002331de92e8a3ffb8833e614be/0x1900-000000-80-0-0.jpg" alt="iskilaaji">
+    <h2>Iskilaaji</h2>
+    <p>
+      Iskilaaji is a well-known Somali artist and musician. He is famous for his strong
+      voice and emotional songs that reflect Somali culture, love, and social issues.
+      Iskilaaji’s music is popular among Somali audiences, especially the youth.
+    </p>
+  </div>
+
+</div>
+
+<div class="video-blog">
+ <div class=" video-player">
+        <div class="song-info">
+            <video id="video" width="100%" height="auto" preload="none" poster="https://i.ytimg.com/vi/bC1QQjnDZdU/maxresdefault.jpg" ></video>
+            <h2 id="title">Video Title</h2>
+            <p id="artist">Artist Name</p>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="time">
+                <span id="current-time">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="prev" class="control-btn"><i class="fas fa-step-backward"></i></button>
+            <button id="play" class="control-btn play-btn"><i class="fas fa-play"></i></button>
+            <button id="next" class="control-btn"><i class="fas fa-step-forward"></i></button>
+        </div>
+        <div class="additional-controls">
+            <div class="volume-container">
+                <i class="fas fa-volume-down"></i>
+                <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+            </div>
+            <div class="speed-container">
+                <i class="fas fa-tachometer-alt"></i>
+                <select id="speed">
+                    <option value="0.5">0.5x</option>
+                    <option value="0.75">0.75x</option>
+                    <option value="1" selected>1x</option>
+                    <option value="1.25">1.25x</option>
+                    <option value="1.5">1.5x</option>
+                    <option value="2">2x</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    </div>
     
 </body>
 </html>
