@@ -59,3 +59,32 @@ window.addEventListener("DOMContentLoaded", ()=>{
 
 
 
+// singers 
+
+// iskilaaji
+ document.querySelector("#iskilaaji").addEventListener("click" , ()=>{
+    window.location.href= "iskilaaji/iskilaaji.html"
+ })
+
+//  suldaan Seeraar 
+
+document.querySelector("#suldaan-seeraar").addEventListener("click", ()=>{
+     window.location.href= "suldaan seeraar/suldaan.html"
+})
+
+// nimcaaan hilaac 
+
+document.querySelector("#nimcaan-hilaac").addEventListener("click", ()=>{
+    window.location.href= "nimcaan hilaac/nimcaan.html"
+})
+
+// ilkacae
+
+document.querySelector("#ilkacase").addEventListener("click", ()=>{
+    window.location.href= "ilkacase/ilkacase.html"
+})
+
+
+
+
+
