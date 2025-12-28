@@ -23,6 +23,7 @@ body{
 }
 
 
+
 .nav-bar{
     position: sticky;
     top: 0px;
@@ -34,6 +35,18 @@ body{
     color: white;
     padding-inline: 20px;
 }
+
+body.dark-mode .nav-bar {
+    background-color: black;
+}
+body.dark-mode #mode-toggle {
+    background-color: black;
+    color: white !important;
+}
+body.dark-mode .nav-bar a {
+    color: white !important;
+}
+
 
 .title-logo{
     font-size: 1.7em;
