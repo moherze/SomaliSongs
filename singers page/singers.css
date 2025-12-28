@@ -175,6 +175,17 @@ body.dark-mode {
   justify-content: center;
 }
 
+body.dark-mode .nav-bar {
+    background-color: black;
+}
+body.dark-mode #mode-toggle {
+    background-color: black;
+    color: white !important;
+}
+body.dark-mode .nav-bar a {
+    color: white !important;
+}
+
 
 
 
