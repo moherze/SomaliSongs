@@ -220,6 +220,7 @@ body.dark-mode {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 7rem;
 }
 
 
@@ -387,7 +388,14 @@ body.dark-mode .control-btn{
 }
 
 
-
+footer {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-block: 10px;
+}
 
 
 
