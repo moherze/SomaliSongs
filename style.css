@@ -317,6 +317,14 @@ body.dark-mode .intro-section .btn {
   }
 
 
+   footer {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-block: 10px;
+}
 
 
 @media(max-width: 768px){
