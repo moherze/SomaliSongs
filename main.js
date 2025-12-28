@@ -84,6 +84,19 @@ document.querySelector("#ilkacase").addEventListener("click", ()=>{
     window.location.href= "ilkacase/ilkacase.html"
 })
 
+// mohamed Bk 
+
+document.querySelector("#maxamed-BK").addEventListener("click", ()=>{
+    window.location.href= "mohamed bk/bk.html"
+})
+
+// cawaale aaden 
+
+
+document.querySelector("#cawaale").addEventListener("click", ()=>{
+    window.location.href= "cawaale aaden/cawaale.html"
+})
+
 
 
 
