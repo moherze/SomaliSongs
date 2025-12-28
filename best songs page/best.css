@@ -251,7 +251,18 @@ body.dark-mode .intro {
 }
 
 
-
+footer {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-block: 10px;
+    color: black;
+}
+body.dark-mode footer{
+  color: white;
+}
 
 
 
