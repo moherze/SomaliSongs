@@ -337,6 +337,13 @@ body.dark-mode .intro-section .btn {
     padding-block: 10px;
 }
 
+footer img {
+  width: 40px;       
+  height: 40px;
+  object-fit: contain;
+  opacity: 0.8;
+}
+
 
 @media(max-width: 768px){
     .nav-bar{

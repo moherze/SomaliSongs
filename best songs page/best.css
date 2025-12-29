@@ -260,6 +260,14 @@ footer {
     padding-block: 10px;
     color: black;
 }
+
+footer img {
+  width: 40px;       
+  height: 40px;
+  object-fit: contain;
+  opacity: 0.8;
+}
+
 body.dark-mode footer{
   color: white;
 }
