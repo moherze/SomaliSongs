@@ -93,7 +93,7 @@ const videos = [
         title: "Ha Idilin rabow Ha i Doorin",  year: "2024", src: "videoes/HA IDILIN RABOOW HA I DOORIN .mp4"
     },
 
-     {   title: "video jaamac",  year: "jaamac", src: "videoes/SOOHDIN KAMA XIRAN WALI.mp4"
+     {   title: "SOOHDIN KAMA XIRAN WALI",  year: "2020", src: "videoes/SOOHDIN KAMA XIRAN WALI.mp4"
     },
 ]
 
@@ -109,7 +109,7 @@ let speed = 1;
 function loadVideo(video){
 
     title.textContent = video.title;
-    // year.textContent = video.year;
+    year.textContent = video.year;
     // videoElement.poster = video.cover;
     videoElement.src = video.src;       
 }
