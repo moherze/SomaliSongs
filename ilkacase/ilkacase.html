@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ilkacase</title>
+    <link rel="stylesheet" href="ilkacase.css">
+    <script src="ilkacase.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    
+    <nav class="nav-bar">
+    <div class="title-logo">
+        <a href="../index.html"> Somali <em>Songs</em></a>
+    </div>
+    
+    <button id="mode-toggle">🔆</button>
+    
+    <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </a>
+
+    <div class="navbar-links">
+            <ul>
+                <li><a href="../singers page/singers.html" style="color: rgb(26, 6, 175);">Singers</a></li>
+                <li><a href="../best songs page/best.html" style="color: rgb(230, 50, 10);">Best Songs</a></li>
+              
+        </div>
+</nav>
+
+<div class="artist-section">
+
+  <div class="artist">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ3MPqbSnDq8ESBUj6M5xgWopOGY2XV229IA&s" alt="ilkacase">
+    <h2>Ilkacase Qayz</h2>
+    <p>
+      Ilkacase Qayz is a Somali rapper and songwriter known for his bold lyrics, confident flow, and modern hip-hop sound. He is part of the new wave of Somali rap artists bringing street energy and real-life storytelling into the music scene.
+
+His music often focuses on themes such as ambition, struggle, identity, and youth culture, delivered through sharp wordplay and strong beats. Ilkacase Qayz has gained recognition for his originality and ability to connect with young audiences through honest and expressive rap.
+
+As an independent artist, Ilkacase Qayz continues to build his name in the Somali hip-hop community, representing creativity, resilience, and the voice of a new generation.
+    </p>
+  </div>
+
+</div>
+
+<div class="video-blog">
+ <div class=" video-player">
+        <div class="song-info">
+            <video id="video" width="100%" height="auto" preload="none" poster="https://i.ytimg.com/vi/WgzfwqN_UMk/maxresdefault.jpg" ></video>
+            <h2 id="title">Video Title</h2>
+            <p id="year">2020</p>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="time">
+                <span id="current-time">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="prev" class="control-btn"><i class="fas fa-step-backward"></i></button>
+            <button id="play" class="control-btn play-btn"><i class="fas fa-play"></i></button>
+            <button id="next" class="control-btn"><i class="fas fa-step-forward"></i></button>
+        </div>
+        <div class="additional-controls">
+            <div class="volume-container">
+                <i class="fas fa-volume-down"></i>
+                <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+            </div>
+            <div class="speed-container">
+                <i class="fas fa-tachometer-alt"></i>
+                <select id="speed">
+                    <option value="0.5">0.5x</option>
+                    <option value="0.75">0.75x</option>
+                    <option value="1" selected>1x</option>
+                    <option value="1.25">1.25x</option>
+                    <option value="1.5">1.5x</option>
+                    <option value="2">2x</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="container">
+        <p>Copyright &copy; 2026 Somali Songs - Designed by <em> mohamed Cqaadir xirsi</em></p>
+    </footer>
+    
+    
+</body>
+</html>
