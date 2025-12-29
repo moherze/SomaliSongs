@@ -1,0 +1,501 @@
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ img{
+  max-width: 100%;
+  max-height: 100%;            
+  object-fit: contain;   
+ }
+
+body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: min(90%, 1120px);
+    margin-inline: auto;
+    padding: 20px 20px;
+}
+
+
+
+.nav-bar{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5c7;
+    color: white;
+    padding-inline: 20px;
+}
+
+body.dark-mode .nav-bar {
+    background-color: black;
+}
+body.dark-mode #mode-toggle {
+    background-color: black;
+    color: white !important;
+}
+body.dark-mode .nav-bar a {
+    color: white !important;
+}
+
+
+.title-logo{
+    font-size: 1.7em;
+    font-weight: 800;
+    line-height: 60px;
+    
+    
+}
+.title-logo a {
+  text-decoration: none !important;
+  color: blue;
+}
+
+ em{
+    color: red;
+}
+
+.navbar-links{
+    max-height: 100%;
+}
+
+.navbar-links ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+.navbar-links ul li{
+  padding: 0 10px;
+}
+
+.navbar-links ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+.navbar-links ul li a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.toggle-button{
+    position: absolute;
+    display: none;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    flex-direction: column;
+    top: 17px;
+    right: 20px;
+
+}
+
+.toggle-button .bar{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(67, 41, 41);
+    border-radius: 10px;
+}
+
+#About{
+  background-color: rgb(134, 214, 7);
+} */
+
+
+         /* Default Light Mode Styles */
+  body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    /* transition: background-color 0.3s ease, color 0.3s ease; */
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+
+ #mode-toggle {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+   width: 30px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  background-color: #f5f5c7;
+
+  }
+ 
+
+  /* Dark Mode Styles */
+  body.dark-mode {
+    background-color: #2c2c2c;
+    color: #f5f5f5;
+  }
+
+  button.dark-mode {
+    background-color: #444444;
+    color: #ffffff;
+    border: none;
+  }
+
+
+body.dark-mode {
+    background-color: #121212; 
+    color: #ffffff;            
+}
+
+
+#mode-toggle {
+    z-index: 1000;
+    position: relative;
+}
+
+
+
+    /* @ */
+
+  .nav-bar button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+ /* singer section  */
+
+
+ .artist-section {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+
+.artist {
+  max-width: 400px;
+  text-align: center;
+}
+
+.artist img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.artist h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+  /* video player  */
+
+  /* Video player hoosta */
+.video-blog {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+
+
+  
+  
+.video-player {
+
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 350px;
+    text-align: center; 
+    width: 100%;
+    max-width: 380px;
+}
+
+body.dark-mode .video-player {
+    background-color: #000000;
+     box-shadow: 0 10px 30px #e6e2e244;
+}
+
+.song-info img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.song-info h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #333;
+}
+body.dark-mode h2 {
+    color: white;
+}
+
+.song-info p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+body.dark-mode p {
+    color: white;
+}
+
+.progress-container {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 6px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #1db954;
+    width: 0%;
+    height: 100%;
+    transition: width 0.1s linear;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.control-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+body.dark-mode .control-btn{
+    color: white;
+}
+
+.control-btn:hover {
+    color: #1db954;
+}
+
+.play-btn {
+    font-size: 40px;
+}
+
+.additional-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.volume-container, .speed-container {
+    display: flex;
+    align-items: center;
+}
+
+.volume-container i, .speed-container i {
+    color: #666;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+#volume {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 5px;
+    background: #e0e0e0;
+    outline: none;
+    border-radius: 5px;
+}
+
+#volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #1db954;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#volume::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #1db954;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+}
+
+#speed {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#speed:focus {
+    outline: none;
+    border-color: #1db954;
+}
+
+
+footer {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-block: 10px;
+}
+
+footer img {
+  width: 40px;       
+  height: 40px;
+  object-fit: contain;
+  opacity: 0.8;
+}
+
+
+
+@media (max-width: 768px) {
+
+ .nav-bar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+  
+
+    .title-logo{
+        font-size: 1.5rem;
+    }
+
+    .navbar-links{
+        width: 100%;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in , opacity 0.3s ease-in;
+    }
+    .toggle-button{
+        display: flex;
+    }
+
+    .navbar-links ul{
+        flex-direction: column;
+        max-width: 100%;
+        text-align: center;
+        
+    }
+    .navbar-links ul li a{
+        display: inline-block;
+        padding: 5px;
+    }
+
+    .nav-bar.active .navbar-links{
+        max-height: 430px;
+        opacity: 1;
+         transition: max-height 0.5s ease-in ,opacity 1.3s ease-in;
+    }
+
+    .nav-bar.active .toggle-button .bar:nth-child(2){
+        display: none;
+    }
+    .nav-bar.active .toggle-button .bar:nth-child(1){
+        transform: translateY(9px) rotate(45deg);
+    }
+     .nav-bar.active .toggle-button .bar:nth-child(3){
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+  /* dark mode  */
+
+  
+  #mode-toggle{
+    position: absolute;
+    top: 13px;
+    right: 90px;    
+    z-index: 10;
+
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+
+    padding: 0;
+    background-color: #f5f5c7;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+  .video-player {
+    max-width: 100%;
+  }
+}
