@@ -94,7 +94,7 @@ const videos = [
         title: "Hees Sagootis",  year: "2015", src: "videos/sagootis.mp4"
     },
 
-     {   title: "Hees Milgo",  year: "202", src: "videos/milgo.mp4"
+     {   title: "Hees Milgo",  year: "2021", src: "videos/milgo.mp4"
     },
 ]
 
