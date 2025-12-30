@@ -85,16 +85,16 @@ const speedSelect = document.getElementById('speed');
 // Songs Array
 const videos = [
     {
-        title: "Axdi Dhowra", year: "2020", src: "videoes/Axdi Dhowra.mp4"
+        title: "Axdi Dhowra", year: "2020", src: "videos/axdi-dhowra.mp4"
     },
     {
-        title: "DIGRIGII XUBIGA",  year: "2025", src: "videoes/DIGRIGII XUBIGA.mp4"
+        title: "DIGRIGII XUBIGA",  year: "2025", src: "videos/digrigii-xubbiga.mp4"
     },
     {
-        title: "KAL IYO LAAB",  year: "2019", src: "videoes/KAL IYO LAAB.mp4"
+        title: "KAL IYO LAAB",  year: "2019", src: "videos/kal-iyo-laab.mp4"
     },
 
-     {   title: "SAMIIRAY QOF KU JECEL",  year: "2019", src: "videoes/SAMIRAY QOF KU JACAYL .mp4"
+     {   title: "SAMIIRAY QOF KU JECEL",  year: "2019", src: "videos/samiray-qof-ku-jecel.mp4"
     },
 ]
 
