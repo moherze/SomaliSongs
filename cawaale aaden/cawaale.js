@@ -85,16 +85,16 @@ const speedSelect = document.getElementById('speed');
 // Songs Array
 const videos = [
     {
-        title: "Hees Layaabay", year: "2013", src: "videoes/AWALE ADAN 2013 LAYAABAY OFFICIAL VIDEO (DIRECTED BY STUDIO LIIBAAN) - Liibaan Jama (240p, h264).mp4"
+        title: "Hees Layaabay", year: "2013", src: "videos/layaabay.mp4"
     },
     {
-        title: "Hees Tamashlayn",  year: "2015", src: "videoes/AWALE ADAN 2015 TAMASHLEYN OFFICIAL VIDEO (DIRECTED BY STUDIO LIIBAAN) - Liibaan Jama (240p, h264).mp4"
+        title: "Hees Tamashlayn",  year: "2015", src: "videos/tamashlayn.mp4"
     },
     {
-        title: "AWALE ADAN l HABOON l ",  year: "2018", src: "videoes/AWALE ADAN l HABOON l 2018 (OFFICIAL MUSIC VIDEO) - Tusmo Films (240p, h264).mp4"
+        title: "AWALE ADAN l HABOON l ",  year: "2018", src: "videos/haboon.mp4"
     },
 
-     {   title: "HAYE KALIYA AWALE ADAN & HANI UK",  year: "2016", src: "videoes/HEESTA HAYE KALIYA AWALE ADAN & HANI UK OFFICIAL VIDEO 2016 - Tusmo Films (240p, h264).mp4"
+     {   title: "HAYE KALIYA AWALE ADAN & HANI UK",  year: "2016", src: "videos/haye-kaliya.mp4"
     },
 ]
 
