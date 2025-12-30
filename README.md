@@ -59,6 +59,7 @@ Project‑kan SomaliSongs wuxuu ka kooban yahay bogag iyo features soo socda:
 ![alt text](image-2.png)
 ![alt text](image-3.png)
 ![alt text](image-4.png)
+![alt text](image-7.png)
 
 ## 3 🧑‍🎤 Bogga Fanaaniinta Soomaaliyeed (All Somali Artists Page)
 ![alt text](image-5.png)
