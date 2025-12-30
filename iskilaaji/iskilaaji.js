@@ -93,7 +93,7 @@ const videos = [
         title: "Ha Idilin rabow Ha i Doorin",  year: "2024", src: "public/videos/ha-idilin-raboow-ha-i-doorin.mp4"
     },
 
-     {   title: "SAXIIBA MAR HORE DHACAY",  year: "2020", src: "public/videos/soohdin-kama-xiran-wali.mp4"
+     {   title: "Saxiix Baa Mar Hore Dhacay",  year: "2020", src: "public/videos/soohdin-kama-xiran-wali.mp4"
     },
 ]
 

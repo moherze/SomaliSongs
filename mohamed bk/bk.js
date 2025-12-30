@@ -85,16 +85,16 @@ const speedSelect = document.getElementById('speed');
 // Songs Array
 const videos = [
     {
-        title: "Armuu i dilaa Cishqigu", year: "2010", src: "videoes/Armuu Idilaa Cishqigu  - Official Audio Release - 4K - Maxamed Siciid BK (360p, h264).mp4"
+        title: "Armuu i dilaa Cishqigu", year: "2010", src: "videos/armu-idilaa-cishqigu.mp4"
     },
     {
-        title: "Heestii Waqtigu",  year: "2020", src: "videoes/MAXAMED BK  OO LA OOYAY   HEESTII WAQTIGU  MUSIC VIDEO 202O LIVE ON STAGE - Aflaanta Studio (360p, h264).mp4"
+        title: "Heestii Waqtigu",  year: "2020", src: "videos/hees-waqtiga.mp4"
     },
     {
-        title: "Been Go Lagu daday",  year: "2015", src: "videoes/Maxamed Bk (Been Go Lagu Daday) 2015 - Codka Shacabka (360p, h264) (1).mp4"
+        title: "Been Go Lagu daday",  year: "2015", src: "videos/been-go-lagu-daday.mp4"
     },
 
-     {   title: "Cilmi Baan Ku Bari Lahaa",  year: "2021", src: "videoes/Cilmi Baan Kubari Lahaa - Lyrics - Maxamed Siciid BK (360p, h264).mp4"
+     {   title: "Cilmi Baan Ku Bari Lahaa",  year: "2021", src: "videos/cilmi-baan-ku-bari-lahaa.mp4"
     },
 ]
 
