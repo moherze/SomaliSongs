@@ -41,7 +41,7 @@ SomaliSongs waxaa loo dhisay si waxbarasho ah, anigoo adeegsanaya **HTML, CSS, i
 |----------|-------------|
 | HTML | Qaab dhismeedka bogga |
 | CSS | Design & Styling |
-| JavaScript | dar-mode & Light mode | songs view |
+| JavaScript | mode & songs view |
 
 
 
