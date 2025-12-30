@@ -85,16 +85,16 @@ const speedSelect = document.getElementById('speed');
 // Songs Array
 const videos = [
     {
-        title: "Hees Dhabar", year: "2014", src: "videoes/Dabar 2014 .mp4"
+        title: "Hees Dhabar", year: "2014", src: "videos/dabar.mp4"
     },
     {
-        title: " Nimcaan ft Asma Love -iskudhigan",  year: "2014", src: "videoes/qumac.mp4"
+        title: " Nimcaan ft Asma Love -iskudhigan",  year: "2014", src: "videos/qumac.mp4"
     },
     {
-        title: "Hees Sagootis",  year: "2015", src: "videoes/SAGOOTIS.mp4"
+        title: "Hees Sagootis",  year: "2015", src: "videos/sagootis.mp4"
     },
 
-     {   title: "Hees Milgo",  year: "202", src: "videoes/milgo.mp4"
+     {   title: "Hees Milgo",  year: "202", src: "videos/milgo.mp4"
     },
 ]
 
