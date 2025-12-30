@@ -84,16 +84,16 @@ const speedSelect = document.getElementById('speed');
 // Songs Array
 const videos = [
     {
-        title: "Ha ii jabin ruux i neceb", year: "2020", src: "public/videoes/ha-ii-jabin-roox-i-neceb.mp4"
+        title: "Ha ii jabin ruux i neceb", year: "2020", src: "public/videos/ha-ii-jabin-roox-i-neceb.mp4"
     },
     {
-        title: "Fariin",  year: "2019", src: "fariin.mp4"
+        title: "Fariin",  year: "2019", src: "public/videos/fariin.mp4"
     },
     {
-        title: "Ha Idilin rabow Ha i Doorin",  year: "2024", src: "public/videoes/ha-idilin-raboow-ha-i-doorin.mp4"
+        title: "Ha Idilin rabow Ha i Doorin",  year: "2024", src: "public/videos/ha-idilin-raboow-ha-i-doorin.mp4"
     },
 
-     {   title: "SOOHDIN KAMA XIRAN WALI",  year: "2020", src: "public/videoes/soohdin-kama-xiran-wali.mp4"
+     {   title: "SAXIIBA MAR HORE DHACAY",  year: "2020", src: "public/videos/soohdin-kama-xiran-wali.mp4"
     },
 ]
 
