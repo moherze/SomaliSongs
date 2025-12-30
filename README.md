@@ -78,6 +78,6 @@ Project‑kan SomaliSongs wuxuu ka kooban yahay bogag iyo features soo socda:
 ## 👨‍💻 Author
 
 **Prepared & Presented by:**
-**Mohamed Cqaadir Hersi**
-**🎓 Dugsiiye Mentorship – JavaScript**
-**🔗 GitHub: moherze**
+Mohamed Cqaadir Hersi
+🎓 Dugsiiye Mentorship – JavaScript
+🔗 GitHub: moherze
