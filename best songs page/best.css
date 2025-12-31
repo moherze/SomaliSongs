@@ -135,6 +135,17 @@ body{
   background-color: #f5f5c7;
 
   }
+
+    body.dark-mode #mode-toggle {
+    font-weight: 500;
+    line-height: 4px;
+    font-size: 1.2rem;
+   
+  }
+
+  body.dark-mode .bar {
+ background-color: white; 
+  }
  
 
   /* Dark Mode Styles */

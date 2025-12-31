@@ -112,6 +112,9 @@ body.dark-mode .nav-bar a {
     border-radius: 10px;
 }
 
+
+
+
 #About{
   background-color: rgb(134, 214, 7);
 } */
@@ -144,6 +147,17 @@ body.dark-mode .nav-bar a {
   display: inline;
   background-color: #f5f5c7;
 
+  }
+
+  body.dark-mode #mode-toggle {
+    font-weight: 500;
+    line-height: 4px;
+    font-size: 1.2rem;
+   
+  }
+
+  body.dark-mode .bar {
+ background-color: white; 
   }
  
 
@@ -187,7 +201,6 @@ body.dark-mode {
   align-items: center;
   justify-content: center;
 }
-
 
  /* singer section  */
 

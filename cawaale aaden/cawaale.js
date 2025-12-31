@@ -28,7 +28,7 @@ toggleButton.addEventListener('click', ()=>{
 
    
  if(toggleButton.classList.contains('dark-mode')){
-    toggleButton.textContent= "⏾"
+   toggleButton.innerHTML = "&#9790;";
     toggleButton.style.color= "black"
     localStorage.setItem('mode', 'dark')
 
@@ -46,7 +46,7 @@ window.addEventListener("DOMContentLoaded", ()=>{
     if(SaveMode === "dark"){
         document.body.classList.add('dark-mode')
         toggleButton.classList.add("dark-mode")
-        toggleButton.textContent= "⏾"
+        toggleButton.innerHTML = "&#9790;";
          toggleButton.style.color= "black"
     
 
