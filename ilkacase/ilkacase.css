@@ -12,6 +12,15 @@
   object-fit: contain;   
  }
 
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+
 body{
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -127,12 +136,10 @@ body.dark-mode .nav-bar a {
     /* transition: background-color 0.3s ease, color 0.3s ease; */
     transition: background-color 0.4s ease, color 0.4s ease;
   }
-
- #mode-toggle {
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-bottom: 20px;
-   width: 30px;
+#mode-toggle {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  width: 30px;
   height: 35px;
   border-radius: 50%;
   font-size: 24px;
@@ -141,16 +148,25 @@ body.dark-mode .nav-bar a {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: inline;
   background-color: #f5f5c7;
   z-index: 1000;
   position: relative;
-  transform: rotate(-35deg);
-
+  transition: transform 0.8s ease;
+  }
+  
+  #mode-toggle:hover{
+      transform: rotate(35deg);
   }
 
-    body.dark-mode #mode-toggle {
-    font-weight: 600;
+
+  body.dark-mode #mode-toggle {
+   font-weight: 600;
+   transform: rotate(-35deg);
+   
+  }
+  body.dark-mode #mode-toggle:hover{
+    color: rgb(205, 205, 200) !important;
+    
    
   }
 

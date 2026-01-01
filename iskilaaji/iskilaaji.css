@@ -128,14 +128,13 @@ body.dark-mode .nav-bar a {
     margin: 0;
     padding: 20px;
     /* transition: background-color 0.3s ease, color 0.3s ease; */
-    transition: background-color 0.4s ease, color 0.4s ease;
+    transition: background-color 0.8s ease, color 0.4s ease;
   }
 
  #mode-toggle {
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-bottom: 20px;
-   width: 30px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  width: 30px;
   height: 35px;
   border-radius: 50%;
   font-size: 24px;
@@ -144,18 +143,27 @@ body.dark-mode .nav-bar a {
   display: flex;
   align-items: center;
   justify-content: center;
-  display: inline;
   background-color: #f5f5c7;
-  transform: rotate(-35deg);
   z-index: 1000;
   position: relative;
-
+  transition: transform 0.8s ease;
   }
+  #mode-toggle:hover{
+      transform: rotate(35deg);
+  }
+
 
   body.dark-mode #mode-toggle {
    font-weight: 600;
+   transform: rotate(-35deg);
    
   }
+  body.dark-mode #mode-toggle:hover{
+    color: rgb(205, 205, 200) !important;
+    
+   
+  }
+
 
   body.dark-mode .bar {
  background-color: white; 
@@ -178,12 +186,6 @@ body.dark-mode .nav-bar a {
 body.dark-mode {
     background-color: #121212; 
     color: #ffffff;            
-}
-
-
-#mode-toggle {
-    z-index: 1000;
-    position: relative;
 }
 
 
