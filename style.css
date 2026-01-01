@@ -139,6 +139,9 @@ body.dark-mode .nav-bar a {
   justify-content: center;
   display: inline;
   background-color: #f5f5c7;
+  transform: rotate(-35deg);
+  z-index: 1000;
+  position: relative;
 
   }
 
@@ -184,8 +187,6 @@ body.dark-mode .nav-bar a {
 .intro-section {
     width: 100%;
     min-height: 90vh;
-    /* background: linear-gradient(to right, #000000, #f52525); */
-    /* background-image: url("https://www.shutterstock.com/image-photo/indian-music-instrument-abstract-on-260nw-2600517547.jpg"); */
     display: flex;
     align-items: center;
     justify-content: center;

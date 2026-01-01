@@ -85,13 +85,14 @@ const speedSelect = document.getElementById('speed');
 // Songs Array
 const videos = [
     {
-        title: "Bal iiKaadi", year: "2020", src: "videos/bal-iikaadi.mp4"
+        title: "Heestii Nuraani",  year: "2021", src: "https://ia601509.us.archive.org/14/items/nuraani/nuraani.mp4"
+      
     },
     {
         title: "Heestii Shuweeya",  year: "2020", src: "videos/shuweeya.mp4"
     },
     {
-        title: "Heestii Nuraani",  year: "2021", src: "videos/nuraani.mp4"
+          title: "Bal iiKaadi", year: "2020", src: "videos/bal-iikaadi.mp4"
     },
 
      {   title: "Hees Iskiifo",  year: "2020", src: "videos/iskiifo.mp4"

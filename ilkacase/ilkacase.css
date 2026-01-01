@@ -143,6 +143,9 @@ body.dark-mode .nav-bar a {
   justify-content: center;
   display: inline;
   background-color: #f5f5c7;
+  z-index: 1000;
+  position: relative;
+  transform: rotate(-35deg);
 
   }
 
@@ -175,10 +178,8 @@ body.dark-mode {
 }
 
 
-#mode-toggle {
-    z-index: 1000;
-    position: relative;
-}
+
+
 
 
 
